@@ -1,0 +1,7 @@
+type vendor_fps_ident_prop, property_type;
+
+allow vendor_shell kmsg_device:chr_file { w_file_perms };
+allow vendor_shell property_socket:sock_file write;
+allow vendor_shell self:capability sys_module;
+allow vendor_shell vendor_file:system module_load;
+set_prop(vendor_shell, vendor_fps_ident_prop)

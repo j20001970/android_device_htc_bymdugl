@@ -1,0 +1,8 @@
+type fps_ident_exec, exec_type, vendor_file_type, file_type;
+
+allow init vendor_file:system module_load;
+allow init fps_ident_exec:file execute;
+allow init {bt_firmware_file firmware_file}:filesystem getattr;
+allow init sysfs_graphics:lnk_file read;
+
+domain_auto_trans(init, fps_ident_exec, vendor_shell)

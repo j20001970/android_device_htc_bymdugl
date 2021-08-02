@@ -1,0 +1,6 @@
+type nxpese_hwservice, hwservice_manager_type; 
+type nxpnfc_hwservice, hwservice_manager_type;
+
+allow hal_nfc_default {nxpese_hwservice nxpnfc_hwservice}:hwservice_manager {add find};
+allow hal_nfc_default nfc_vendor_data_file:dir {search write add_name};
+allow hal_nfc_default nfc_vendor_data_file:file create;

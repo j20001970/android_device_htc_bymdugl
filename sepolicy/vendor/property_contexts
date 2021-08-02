@@ -1,0 +1,4 @@
+vendor.hw.fps.ident              u:object_r:vendor_fps_ident_prop:s0
+vendor.hw.fps.ident.sepolicy     u:object_r:vendor_fps_ident_prop:s0
+vendor.hw.fps.ident.match        u:object_r:vendor_fps_ident_prop:s0
+vendor.hw.fps.change             u:object_r:vendor_fps_ident_prop:s0
