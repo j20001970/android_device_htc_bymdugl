@@ -74,20 +74,14 @@ vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib/vendor.qti.hardware.alarm@1.0.so
 
 # Audio
-#vendor/lib64/hw/audio.primary.default.so
-#vendor/lib64/hw/audio.primary.trinket.so
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
-#vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudioconfigstore.so
 vendor/lib64/libqtigef.so
-#vendor/lib/hw/audio.primary.default.so
-#vendor/lib/hw/audio.primary.trinket.so
 vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
-#vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libaudioconfigstore.so
 vendor/lib/libdrc.so
